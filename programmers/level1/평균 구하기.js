@@ -10,7 +10,6 @@
 
 function solution(arr) {
   const sum = arr.reduce((a, b) => (b += a));
-  console.log(sum);
   return sum / arr.length;
 }
 
