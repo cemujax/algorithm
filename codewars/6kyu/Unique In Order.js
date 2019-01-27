@@ -13,7 +13,6 @@
 
 const uniqueInOrder = iterable => {
   const arr = [...iterable];
-  console.log(`arr:${arr}`);
   return arr.filter((v, i) => v !== arr[i - 1]);
 };
 
